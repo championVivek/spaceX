@@ -19,7 +19,6 @@ function Home() {
     ignoreQueryPrefix: true,
   }).successfulLanding;
 
-
   //Get launches on page start
   useEffect(() => {
     getAllLaunches();
@@ -71,6 +70,9 @@ function Home() {
           )}
         </div>
       </div>
+      <footer>
+        <strong>Developed by: </strong> <h5>{" "}Vivek kumar</h5>
+      </footer>
     </div>
   );
 }
