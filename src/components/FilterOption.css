@@ -1,0 +1,19 @@
+.filterOption {
+  padding: 10px 17px;
+  margin: 5px;
+  background-color: rgb(138, 202, 138);
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+.filterOption:hover {
+  background-color: rgb(78, 136, 78);
+}
+
+.filterOption:focus {
+  background-color: rgb(70, 156, 70);
+  outline: none;
+}
